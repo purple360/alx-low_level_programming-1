@@ -115,7 +115,7 @@ void print_version(char *ptr)
 	printf("  Version:                           %d", version);
 
 	if (version == EV_CURRENT)
-		printf(" 1 (current)");
+		printf("(current)");
 
 	printf("\n");
 }
@@ -200,7 +200,7 @@ int check_elf(char *ptr)
 }
 
 /**
- * main - check the code for Holberton School students.
+ * main - check the code for ALX students.
  * @argc: number of arguments.
  * @argv: arguments vector.
  * Return: Always 0.
