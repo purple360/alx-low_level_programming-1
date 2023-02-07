@@ -115,7 +115,7 @@ void print_version(char *ptr)
 	printf("  Version:                           %d", version);
 
 	if (version == EV_CURRENT)
-		printf(" (current)");
+		printf(" 1(current)");
 
 	printf("\n");
 }
